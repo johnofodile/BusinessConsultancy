@@ -425,10 +425,172 @@ font-size: 62.5%;
     display:flex;
     align-items: center;
     padding-left: 10rem;
+    
+
+}
+.pricing-cards-wrapper{
+    width:100%;
+    display:flex;
+   
+    justify-content: space-evenly;
+}
+
+
+.pricing-card{
+    width:28rem;
+    height:45rem;
+    background-color: #2e2b2b;
+    border-radius: 1rem;
+    box-shadow: 2rem 2rem 6rem rgba(0,0,0,.7) ;
+    position:relative;
+    
+    
+
+
+}
+ .pricing-card-front{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .pricing-card-heading{
+    font-size: 2rem;
+    font-weight: 300;
+    color:white;
+    width:100%;
+    height:5rem;
+    display:flex;
+   align-items: center;
+    padding-left:2rem;
+ }
+
+ .heading-free{
+    
+    background:linear-gradient(to right,#6b6464, #7a1010);
+    border-radius:1rem 1rem 0 0;
+ }
+
+ .heading-basic{
+    
+    background:linear-gradient(to right,#239448, hsl(78, 77%, 27%));
+    border-radius:1rem 1rem 0 0;
+ }
+ .heading-standard{
+    
+    background:linear-gradient(to right,#5c5656, #130d0d);
+    border-radius:1rem 1rem 0 0;
+ }
+ .heading-premium{
+    
+    background:linear-gradient(to right,#8a8ab9, #130d0d);
+    border-radius:1rem 1rem 0 0;
+ }
+ .pricing-card-price{
+    font-family:  'Montserrat','Bitter', serif;
+    font-size: 7rem;
+    font-weight: 300;
+    color:white;
+}
+
+.pricing-card-list i {
+    font-size: 1.8rem;
+}
+
+.pricing-card-list span{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+
+}
+.list-free li{
+    color:lightcoral;
+    font-family:  'Montserrat','Bitter', serif;
+}
+.list-basic li{
+    color:lightgreen;
+    font-family:  'Montserrat','Bitter', serif;
+}
+.list-standard li{
+    color:grey;
+    font-family:  'Montserrat','Bitter', serif;
+}
+.list-premium li{
+    color:lightcyan;
+    font-family:  'Montserrat','Bitter', serif;
+}
+
+.pricing-card-list li{
+    margin-bottom: 2.5rem;
+}
+.pricing-card-button{
+    width:18rem;
+    height:5rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    border:none;
+    font-size:1.6rem;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: .3rem .3rem .6rem rgba(0,0,0,0.5);
+
+}
+.btn-free{
+    background-color:lightcoral;
+}
+.btn-basic{
+    background-color:lightgreen;
+}
+.btn-standard{
+    background-color:grey;
+}
+.btn-premium{
+    background-color:lightcyan;
+}
+
+.pricing-card-back{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform:rotateY(180deg);
+    border-radius: 1rem;
 
 }
 
 
+.back-free{
+    background:linear-gradient(to right,#6b6464, #7a1010);
+    border-radius:1rem 1rem 0 0;
+}
+
+.back-basic{
+    background:linear-gradient(to right,#239448, hsl(78, 77%, 27%));
+    border-radius:1rem 1rem 0 0;
+}
+
+.back-standard{
+    background:linear-gradient(to right,#5c5656, #130d0d);
+    border-radius:1rem 1rem 0 0;
+}
+
+.back-premium{
+    background:linear-gradient(to right,#8a8ab9, #130d0d);
+    border-radius:1rem 1rem 0 0;
+}
+
+.pricing-card-back a{
+    font-size: 2.5rem;
+    color:white;
+}
 
 
 
